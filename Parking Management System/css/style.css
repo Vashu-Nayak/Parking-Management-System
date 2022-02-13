@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* css code for container */
+.containers{
+    
+    width:100%;
+}
+/* css code for navbar */
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(7, 7, 7);
+    
+}
+.logo img{
+    width:90px;
+    height:60px;
+}
+.navlist{
+    width:60%;
+}
+.navlist ul{
+    margin:10px;
+}
+.navlist  li{
+    list-style:none;
+    display:inline;
+    margin-left:25px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.navlist  li a{
+    text-decoration:none;
+    margin-left:30px;
+    color:white;
+    padding:auto;
+    text-align: center;
+    
+}
+.row{
+    margin-right:0px;
+}
+
+/* css code for carousel */
+.carousel-inner{
+    height:90vh;
+    width:100%;
+    object-fit:contain;
+}
+.carousel-inner img{
+    object-fit:contain;
+    height:100%;
+    width:100%;
+}
+
+/*  css code for about us */
+.about{
+    text-align: center;
+    font-size: 30px ;
+}
+
+.section{
+    
+    padding:20px;
+    margin-top:15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    max-width: 80%; 
+    margin:auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.secleft{
+    flex-direction: row-reverse;
+}
+.paras{
+    margin-top: 10px;
+    padding: 0px 65px;
+}
+.thumbnail{
+     margin-top: 10px;   
+    padding:0px 65px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.thumbnail img{
+    width:200px;
+    border:2px solid black;
+    object-fit: contain;
+    border-radius: 25px;
+}
+
+.imgfluid{
+    width:50%;
+    border-radius: 2px solid black;
+    
+    object-fit: contain;
+    align-items: center;
+    
+}
+.sectiontag{
+    margin-top:10px;
+    font-size: 20px;
+}
+.sectionsubtag{
+    padding-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* css code for  car registration form */
+
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    transform:scale(1.2);
+    outline:none;
+}
+
+#tableHead{
+    background-color:rgb(236, 121, 68);
+    
+}
+#tableBody{
+    background-color: white;
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
+.footer{
+    font-size: 15px;
+    color:white;
+    background-color: black;
+}
